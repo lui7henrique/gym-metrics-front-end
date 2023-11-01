@@ -70,9 +70,12 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
-    },
-    maxWidth: {
-      article: '1080px',
+      maxWidth: {
+        article: '1080px',
+      },
+      gridTemplateColumns: {
+        profile: 'max-content 1fr max-content',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
